@@ -1,0 +1,18 @@
+---
+ti_lfa:
+  username: tomas
+  password: tomas123
+
+arista:
+  #platform: arista_eos  # for netmiko
+  platform: eos  # for napalm
+  data:
+    key2: value2
+  connection_options:
+    netmiko:
+      platform: arista_eos
+      extras:
+        global_delay_factor: 10
+    napalm:
+      extras:
+        optional_args: {}

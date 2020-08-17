@@ -1,0 +1,94 @@
+---
+r1:
+  hostname: 192.168.249.4
+  username: tomas
+  password: tomas123
+  groups:
+    - arista
+  data:
+    key1: value1
+    
+r2:
+  hostname: 192.168.249.5
+  username: tomas
+  password: tomas123
+  groups:
+    - arista
+  data:
+    key1: value1
+
+r3:
+  hostname: 192.168.249.6
+  username: tomas
+  password: tomas123
+  groups:
+    - arista
+  data:
+    key1: value1
+
+l1r1:
+  hostname: 192.168.249.10
+  groups:
+    - arista
+    - ti_lfa
+
+l1r2:
+  hostname: 192.168.249.11
+  groups:
+    - arista
+    - ti_lfa
+
+l1r3:
+  hostname: 192.168.249.12
+  groups:
+    - arista
+    - ti_lfa
+
+l1r4:
+  hostname: 192.168.249.13
+  groups:
+    - arista
+    - ti_lfa
+
+l1r5:
+  hostname: 192.168.249.14
+  groups:
+    - arista
+    - ti_lfa
+
+l1r6:
+  hostname: 192.168.249.15
+  groups:
+    - arista
+    - ti_lfa
+
+l1r7:
+  hostname: 192.168.249.16
+  groups:
+    - arista
+    - ti_lfa
+
+l1r8:
+  hostname: 192.168.249.17
+  groups:
+    - arista
+    - ti_lfa
+
+l1r9:
+  hostname: 192.168.249.18
+  groups:
+    - arista
+    - ti_lfa
+
+l1r10:
+  hostname: 192.168.249.19
+  groups:
+    - arista
+    - ti_lfa
+
+l1r11:
+  hostname: 192.168.249.20
+  groups:
+    - arista
+    - ti_lfa
+
